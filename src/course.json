@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Photoshop",
+        "category": "Design",
+        "teacher": "Carlos Guzmán",
+        "description": "Amazing design crash course for absolute beginners and students",
+        "image": "../assets/img/code.jpg"
+    },
+    {
+        "name":"Python Crash Course for absolute beginners and students",
+        "category": "Programming",
+        "teacher": "Carlos Guzmán",
+        "description": "This is a Python course",
+        "image": "../assets/img/code.jpg"
+    },
+    {
+        "name":"Bussinness creating for students and producers",
+        "category": "Bussiness",
+        "teacher": "Miguel Sabad",
+        "description": "Amazin creation of a new project",
+        "image": "../assets/img/code.jpg"
+    },
+    {
+        "name":"Web development for Social Media",
+        "category": "Marketing",
+        "teacher": "Carlos Guzmán",
+        "description": "Development of social media content",
+        "image": "../assets/img/code.jpg"
+    }
+]

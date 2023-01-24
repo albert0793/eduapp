@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;400;500;600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+:root
+{
+    --primary: #FF4C6C;
+    --secondary: #2A4365;
+    --info: #3CC1FE;
+    --success: #5DBB2C;
+    --warning: #FF790E;
+    /* // Text colors */
+    --color1: #2B6CB0;
+    --black2: #2C5282;
+    --black3: #2A4365;
+    /* // Black colors */
+    --black1: #222222;
+    --black3: #444444;
+    --black4: #888888;
+    /* // Light colors */
+    --white: #FFFFFF;
+    --glass: rgba(255, 255, 255, 0.25);
+    /* Styles for letters  */
+    --small-text-regular: 14px;
+    --small-text-bold: 14px;
+    --normal-text-regular: 16px;
+    --normal-text-bold: 16px;
+    --large-text-regular: 20px;
+    --large-text-bold: 20px;
+    /* size of headings */
+    --h1: 56px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 32px;
+    --h5: 24px;
+    --h6: 20px;
+
+}
+body
+{
+    scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    color: var(--black1);
+}
+h1
+{
+    font-size: var(--h1);
+}
+h2
+{
+    font-size: var(--h2);
+}
+h3
+{
+    font-size: var(--h3);
+}
+h4
+{
+    font-size: var(--h4);
+}
+h5
+{
+    font-size: var(--h5);
+}
+h6
+{
+    font-size: var(--h6);
+}
+ul
+{
+    list-style-type: none;
+}

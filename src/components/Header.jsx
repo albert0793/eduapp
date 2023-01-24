@@ -11,7 +11,7 @@ function Header() {
             <a href="#">
               <h1>
                 {/* <img src="/images/logo.png" /> */}
-                Educatión <span className="required">App</span>
+                Raven <span className="required">.</span>io
               </h1>
             </a>
           </div>
