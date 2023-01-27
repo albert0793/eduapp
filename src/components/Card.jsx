@@ -1,6 +1,6 @@
 import design from '../assets/img/design.jpg';
 import teacherImg from '../assets/img/teacher.jpg';
-import path from '../utils/images';
+import path from '../utilities/images';
 function Card({image, title, category, description, teacher}) {
     return (
         <div className="card__course">

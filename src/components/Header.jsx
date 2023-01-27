@@ -2,7 +2,7 @@ import Navbar  from './Navbar';
 import { useState } from 'react';
 import ToggleMenu from './ToggleMenu';
 function Header() {
-    const links = ['Home', 'Login', 'Register', 'Pqrs', 'Logout', 'help'];
+    const links = ['Home', 'About', 'Login', 'Register', 'Pqrs', 'Logout', 'help'];
     const [showMenu, setShowMenu] = useState(false);
     return (
       <header className="header">
@@ -11,7 +11,7 @@ function Header() {
             <a href="#">
               <h1>
                 {/* <img src="/images/logo.png" /> */}
-                Raven <span className="required">.</span>io
+                Raven <span className="important">.</span>io
               </h1>
             </a>
           </div>

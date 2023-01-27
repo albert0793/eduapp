@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "./Button";
+import { Link } from "react-router-dom";
 import ToggleTheme from "./ToggleTheme";
 
 function Navbar({ links=[] }) {
@@ -9,7 +9,7 @@ function Navbar({ links=[] }) {
             <ul className="nav">
                 {links.map((link, index) => (
                     <li key={index} className={`${link == activeLink ? 'active' : ''}`}>
-                        <a href="#" onClick={()=> setActiveLink(links[index])}>{link}</a>
+                        <Link to={`/${link.toLowerCase()}`} onClick={()=> setActiveLink(links[index])}>{link}</Link>
                     </li>
                 ))}
                 <ToggleTheme />

@@ -4,23 +4,23 @@ function LoginForm(props) {
     return (
       <div className="container">
         <h3>
-          Iniciar<span className="required"> Sesión</span>
+          Iniciar<span className="important"> Sesión</span>
         </h3>
         <form action="">
           <div>
             <label htmlFor="email">
-              Email o nombre de usuario <span className="required">*</span>
+              Email o nombre de usuario <span className="important">*</span>
             </label>
-            <input type="email" id="email" required onfocus="true" />
+            <input type="email" id="email" important onfocus="true" />
           </div>
           <div>
             <label htmlFor="passwd">
-              Contraseña <span className="required">*</span>
+              Contraseña <span className="important">*</span>
             </label>
-            <input type="password" id="passwd" required />
+            <input type="password" id="passwd" important />
           </div>
           <div className="flex">
-            <input type="checkbox" id="terms" required />
+            <input type="checkbox" id="terms" important />
             <label htmlFor="terms">Acepto los terminos de uso</label>
           </div>
           <div>
@@ -30,7 +30,7 @@ function LoginForm(props) {
             <div>
               <span>
                 No tiene una cuenta ?{" "}
-                <a href="register.html" className="required">
+                <a href="register.html" className="important">
                   {" "}
                   Registrese aquí
                 </a>
@@ -39,7 +39,7 @@ function LoginForm(props) {
             <div>
               <span>
                 Olvidó su contraseña ?{" "}
-                <a href="#" className="required">
+                <a href="#" className="important">
                   {" "}
                   Cambiela aquí
                 </a>
