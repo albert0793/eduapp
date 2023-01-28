@@ -207,6 +207,7 @@ class Wrapper extends Component {
         </footer>
         {/* <h1 className="title__page">Education App</h1>
           {registered ? <LoginForm /> : <RegisterForm />} */}
+          {this.props.children}
       </div>
     );
     // );
