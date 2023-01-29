@@ -2,7 +2,7 @@ import Navbar  from './Navbar';
 import { useState } from 'react';
 import ToggleMenu from './ToggleMenu';
 function Header() {
-    const links = ['Home', 'About', 'Login', 'Register', 'Pqrs', 'Logout', 'help'];
+    const links = ['Home', 'About','Pqrs', 'help','Login', 'Register', 'Contact'];
     const [showMenu, setShowMenu] = useState(false);
     return (
       <header className="header">

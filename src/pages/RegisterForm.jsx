@@ -1,8 +1,8 @@
-import Button from "./Button";
+import Button from "../components/Button";
 
 function RegisterForm() {
     return (
-      <div className="container">
+      <div className="container container__form">
         <h3>
           Crear<span className="important"> cuenta</span>
         </h3>
