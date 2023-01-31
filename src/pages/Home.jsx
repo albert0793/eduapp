@@ -1,7 +1,5 @@
 import Card from "../components/Card";
 import data from "../course.json";
-import images from "../utilities/images";
-import Header from "../components/Header";
 import CardInfo from "../components/CardInfo";
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
@@ -104,11 +102,13 @@ class Home extends Component {
                 this.state.courses.map((course, index) => (
                   <Card
                     key={index}
-                    image={images[index]}
+                    // image={images[index]}
+                    image={course.image}
                     description={course.description}
                     title={course.name}
                     category={course.category}
                     teacher={course.teacher}
+                    price={course.price}
                   />
                   // console.log(this.state.courses)
                 ))

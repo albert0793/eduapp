@@ -2,29 +2,45 @@
     {
         "name":"Photoshop",
         "category": "Design",
-        "teacher": "Carlos Guzmán",
         "description": "Amazing design crash course for absolute beginners and students",
-        "image": "../assets/img/code.jpg"
+        "image": "../assets/img/design.jpg",
+        "teacher": {
+            "name": "Alba Fernandez",
+            "image": "../assets/img/t1.jpg"
+        },
+        "price": "10.00"
     },
     {
         "name":"Python Crash Course for absolute beginners and students",
         "category": "Programming",
-        "teacher": "Carlos Guzmán",
         "description": "This is a Python course",
-        "image": "../assets/img/code.jpg"
+        "image": "../assets/img/code.jpg",
+        "teacher": {
+            "name": "Carlos Guzmán",
+            "image": "../assets/img/teacher.jpg"
+        },
+        "price": "87.00"
     },
     {
         "name":"Bussinness creating for students and producers",
         "category": "Bussiness",
-        "teacher": "Miguel Sabad",
         "description": "Amazin creation of a new project",
-        "image": "../assets/img/code.jpg"
+        "image": "../assets/img/bussiness.jpg",
+        "teacher": {
+            "name": "Andres Lopéz",
+            "image": "../assets/img/t3.jpg"
+        },
+        "price": "98.10"
     },
     {
         "name":"Web development for Social Media",
         "category": "Marketing",
-        "teacher": "Carlos Guzmán",
         "description": "Development of social media content",
-        "image": "../assets/img/code.jpg"
+        "image": "../assets/img/social.jpg",
+        "teacher": {
+            "name": "Luisa Calle",
+            "image": "../assets/img/teacher1.jpg"
+        },
+        "price": "50.25"
     }
 ]

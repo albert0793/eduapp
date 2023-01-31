@@ -1,7 +1,4 @@
-import design from '../assets/img/design.jpg';
-import teacherImg from '../assets/img/teacher.jpg';
-import path from '../utilities/images';
-function Card({image, title, category, description, teacher}) {
+function Card({image, title, category, description, teacher, price}) {
     return (
         <div className="card__course">
             <div className="image__container">
@@ -26,15 +23,15 @@ function Card({image, title, category, description, teacher}) {
                 </div>
                 <div className='data__teacher'>
                     <div className="teacher__image">
-                        <img src={ teacherImg } alt="" />
+                        <img src={ teacher.image } alt="" />
                     </div>
                     <div>
-                        <span className='teacher__name'>{teacher}</span>
+                        <span className='teacher__name'>{teacher.name}</span>
                     </div>
                 </div>
                 <span className="line"></span>
                 <div className='flex flex__end'>
-                    <h4 className="price__course"><span>$</span>50.000</h4>
+                    <h6 className="price__course"><span>$</span>{ price }</h6>
                     <a href="#" className="btn btn__flex"><i className="fa fa-arrow-right"></i></a>
                 </div>
             </div>

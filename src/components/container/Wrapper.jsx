@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import Card from "../Card";
-import data from "../../course.json";
-import images from "../../utilities/images";
 import Header from "../Header";
-import CardInfo from "../CardInfo";
 class Wrapper extends Component {
   constructor(props) {
     super(props);
@@ -11,7 +7,6 @@ class Wrapper extends Component {
   }
   state = {
     show: false,
-    courses: data,
     scroll: 0,
   };
   goTop() {
@@ -127,22 +122,30 @@ class Wrapper extends Component {
           <hr />
           <div className="copyright__section">
             <div className="copyright">
-              <p>
-                Copyright &copy; 2023 Powered By{" "}
-                <a href="#" className="logo">
+              Copyright &copy; 2023 Powered By{" "}
+              <a href="#" className="logo">
                 <h6>
                   CodersTeam<span className="important">.</span>co
                 </h6>
               </a>
-              </p>
             </div>
             <div className="payment__methods">
               <p>Medios de pago admitidos</p>
-              <div><span className="important">Nequi</span></div>
-              <div><span className="important">Daviplata</span></div>
-              <div><span className="important">Paypal</span></div>
-              <div><span className="important">Efecty</span></div>
-              <div><span className="important">Payu</span></div>
+              <div>
+                <span className="important">Nequi</span>
+              </div>
+              <div>
+                <span className="important">Daviplata</span>
+              </div>
+              <div>
+                <span className="important">Paypal</span>
+              </div>
+              <div>
+                <span className="important">Efecty</span>
+              </div>
+              <div>
+                <span className="important">Payu</span>
+              </div>
             </div>
           </div>
         </footer>
